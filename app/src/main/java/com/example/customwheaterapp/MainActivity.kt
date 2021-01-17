@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.multidex.MultiDex
+import com.example.customwheaterapp.retrofit.WeatherNetwork
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,5 +16,4 @@ class MainActivity : AppCompatActivity() {
         super.attachBaseContext(base)
         MultiDex.install(this)
     }
-
 }
