@@ -1,6 +1,6 @@
 package com.example.customwheaterapp.network
 
-import com.example.customwheaterapp.usecase.*
+import com.example.customwheaterapp.use_case.*
 import com.google.gson.annotations.SerializedName
 
 class WeatherResponse {

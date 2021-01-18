@@ -1,4 +1,4 @@
-package com.example.customwheaterapp.usecase
+package com.example.customwheaterapp.use_case
 
 import com.google.gson.annotations.SerializedName
 
