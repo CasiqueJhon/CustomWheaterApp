@@ -9,7 +9,7 @@ import retrofit2.http.Query
 
 interface ApiInterface {
 
-    interface WeatherService {
+
         @GET("weather")
         suspend fun getWeatherByLocation(
                 @Query("lat")
@@ -33,5 +33,4 @@ interface ApiInterface {
                 @Query("exclude")
                 exclude: String
         ): Response<WeatherResponseForecast>
-    }
 }

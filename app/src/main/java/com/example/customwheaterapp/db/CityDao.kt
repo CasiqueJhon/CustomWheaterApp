@@ -18,7 +18,7 @@ interface CityDao {
     suspend fun updateSavedCity(vararg obj: CityUpdate):Int
 
     @Query("SELECT * FROM city_bd WHERE isSaved= :key")
-    fun getSaveCity(key: String):LiveData<List<Cities>>
+    fun getSaveCity(key: Int):LiveData<List<Cities>>
 
     @Delete
     suspend fun deleteSavedCity(city: Cities)
